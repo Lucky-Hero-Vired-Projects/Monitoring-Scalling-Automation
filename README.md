@@ -59,6 +59,8 @@
 10. Create SNS Topic for Alert
 11. Subscribe to SNS Topic
 12. Publish Message to SNS Topic
+13. Create Lambda function using sns-lambda.py file and trigger to test. will see the Notification message from aws.
+14. before triggering lambda function, Attach IAM policy SNS full access.
 
 all this steps were created using functions, by using deploy_web_application() function calling above resources to create.
 
